@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Cabinet Grotesk';
+  src: url('/fonts/CabinetGrotesk-Variable.woff2') format('woff2'),
+       url('/fonts/CabinetGrotesk-Variable.woff') format('woff');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
 :root {
   --background: #000000;
   --foreground: #F5F7F8;
@@ -10,5 +18,4 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
 }

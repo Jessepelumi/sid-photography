@@ -17,6 +17,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        cabinetGrotesk: ["Cabinet Grotesk", "sans-serif"],
+      },
     },
   },
   plugins: [],
