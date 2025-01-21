@@ -10,6 +10,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Futura';
+  src: url('/fonts/Futura.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
 :root {
   --background: #000000;
   --foreground: #F5F7F8;
@@ -18,4 +25,5 @@
 body {
   color: var(--foreground);
   background: var(--background);
+  font-family: 'Futura', sans-serif;
 }
