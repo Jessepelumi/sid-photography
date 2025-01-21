@@ -9,9 +9,9 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "hero-mobile": "url('images/hero-mobile.jpg')",
-        "hero-laptop": "url('images/hero-laptop.jpg')",
-        "hero-desktop": "url('images/hero-desktop.jpg')",
+        "hero-mobile": "url('/images/hero-mobile.jpg')",
+        "hero-laptop": "url('/images/hero-laptop.jpg')",
+        "hero-desktop": "url('/images/hero-desktop.jpg')",
       },
       colors: {
         background: "var(--background)",
